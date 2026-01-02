@@ -32,6 +32,10 @@
                     Screen Reader Access</a>
             </div>
             <div class="top-options">
+                <!-- Search Added Here -->
+                <div class="top-search">
+                    <a href="#" aria-label="Search"><i class="fas fa-search"></i></a>
+                </div>
                 <div class="text-resize">
                     <button aria-label="Decrease font size">A-</button>
                     <button aria-label="Reset font size">A</button>
@@ -55,13 +59,12 @@
                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg"
                         alt="Satyamev Jayate" height="60">
                 </div>
+                <div class="ncb-logo">
+                    <img src="assets/logo.svg" alt="NCB Logo" height="60">
+                </div>
                 <div class="org-details">
                     <span class="org-name">Narcotics Control Bureau</span>
                     <span class="ministry">Ministry of Home Affairs, Government of India</span>
-                </div>
-                <div class="ncb-logo">
-                    <!-- Placeholder for NCB Logo -->
-                    <i class="fas fa-shield-alt fa-2x" style="color: var(--color-primary);"></i>
                 </div>
             </div>
 
@@ -77,7 +80,6 @@
                     <li><a href="#">Enforcement</a></li>
                     <li><a href="#">Awareness</a></li>
                     <li><a href="#">Media Center</a></li>
-                    <li><a href="#"><i class="fas fa-search"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -112,33 +114,23 @@
                     </div>
                 </div>
 
-                <!-- Hero Cards / Highlights -->
-                <div class="hero-cards">
-                    <!-- Replaced by Services Section below -->
+                <!-- Hero Image (Right Side) -->
+                <div class="hero-img-container">
+                    <img src="assets/hero.png" alt="Drug Free India" class="hero-main-img">
                 </div>
             </div>
         </section>
-
-        <!-- Wave Divider Bottom -->
-        <div class="wave-divider">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    fill="#F8FAFC"></path>
-            </svg>
-        </div>
 
         <!-- Director General Message -->
         <section class="dg-message-section">
             <div class="container dg-container">
                 <div class="dg-image-box fade-in">
-                    <div class="dg-img"></div> <!-- Placeholder for DG Image -->
-                    <div class="dg-img-small"></div> <!-- Placeholder for MoS/Minister -->
+                    <img src="assets/dg_ncb.jpg" alt="Director General Office" class="dg-img">
+                    <img src="assets/leaders/Shri Anurag Garg.png" alt="Shri Anurag Garg" class="dg-img-small">
                 </div>
                 <div class="dg-content fade-in">
                     <div class="dg-header-box">
-                        <span class="designation">Director General | IPS, Himachal Pradesh, 1993</span>
+                        <span class="designation">Shri Anurag Garg | Director General</span>
                         <span class="sub-dept">Narcotics Control Bureau - Ministry of Home Affairs</span>
                     </div>
                     <div class="quote-box">
@@ -296,16 +288,71 @@
                     <h2>Leadership</h2>
                     <p>Guiding the mission for a Drug Free India</p>
                 </div>
-                <div class="leaders-grid">
-                    <div class="leader-card">
-                        <div class="leader-img placeholder-img"></div>
-                        <h4>Shri Amit Shah</h4>
-                        <p>Hon'ble Minister of Home Affairs</p>
-                    </div>
-                    <div class="leader-card">
-                        <div class="leader-img placeholder-img"></div>
-                        <h4>Shri S.N. Pradhan</h4>
-                        <p>Director General, NCB</p>
+                <!-- Leaders Carousel -->
+                <div class="leaders-carousel">
+                    <div class="leaders-track">
+                        <!-- Duplicated sets for seamless scrolling functionality (Marquee) -->
+                        <!-- Set 1 -->
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Anurag Garg.png" alt="Shri Anurag Garg" class="leader-img">
+                            <h4>Shri Anurag Garg</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Maneesh Kumar.png" alt="Shri Maneesh Kumar"
+                                class="leader-img">
+                            <h4>Shri Maneesh Kumar</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Vineet Vinayak.png" alt="Shri Vineet Vinayak"
+                                class="leader-img">
+                            <h4>Shri Vineet Vinayak</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri. T. G. Venkatesh.png" alt="Shri. T. G. Venkatesh"
+                                class="leader-img">
+                            <h4>Shri. T. G. Venkatesh</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Smt Monika Ashish Batra.png" alt="Smt Monika Ashish Batra"
+                                class="leader-img">
+                            <h4>Smt Monika Ashish Batra</h4>
+                            <p>NCB Official</p>
+                        </div>
+
+                        <!-- Set 2 (Duplicate for seamless loop) -->
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Anurag Garg.png" alt="Shri Anurag Garg" class="leader-img">
+                            <h4>Shri Anurag Garg</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Maneesh Kumar.png" alt="Shri Maneesh Kumar"
+                                class="leader-img">
+                            <h4>Shri Maneesh Kumar</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri Vineet Vinayak.png" alt="Shri Vineet Vinayak"
+                                class="leader-img">
+                            <h4>Shri Vineet Vinayak</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Shri. T. G. Venkatesh.png" alt="Shri. T. G. Venkatesh"
+                                class="leader-img">
+                            <h4>Shri. T. G. Venkatesh</h4>
+                            <p>NCB Official</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="assets/leaders/Smt Monika Ashish Batra.png" alt="Smt Monika Ashish Batra"
+                                class="leader-img">
+                            <h4>Smt Monika Ashish Batra</h4>
+                            <p>NCB Official</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,8 +363,7 @@
             <div class="container footer-content">
                 <div class="footer-col">
                     <div class="footer-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem"
-                            height="40">
+                        <img src="assets/logo.svg" alt="Emblem" height="40">
                         <span>Narcotics Control<br>Bureau</span>
                     </div>
                     <p>Committed to a Drug Free India. The nodal agency for combatting drug trafficking.</p>
@@ -362,21 +408,20 @@
             <!-- Footer Logos Strip -->
             <div class="footer-logos-strip">
                 <div class="container logo-strip-content">
-                    <a href="#" target="_blank"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Make_in_India.svg/200px-Make_in_India.svg.png"
-                            alt="Make In India" height="50"></a>
-                    <a href="#" target="_blank"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/2/22/MyGov_Logo.svg" alt="MyGov"
-                            height="50"></a>
-                    <a href="#" target="_blank"><img
-                            src="https://upload.wikimedia.org/wikipedia/en/9/95/Digital_India_logo.svg"
-                            alt="Digital India" height="40"></a>
-                    <a href="#" target="_blank"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/G20_India_2023_logo.svg/200px-G20_India_2023_logo.svg.png"
-                            alt="G20 India" height="50"></a>
-                    <a href="#" target="_blank"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/e/eg/Swachh_Bharat_Mission_Logo.svg"
-                            alt="Swachh Bharat" height="50"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/partner-logo/MANAS_Logo-removebg-preview 1.png" alt="MANAS"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/partner-logo/Umang_PreviewLogo-removebg-preview 1.png" alt="Umang"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/partner-logo/digital_india_logo_0 1.png" alt="Digital India"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/partner-logo/india-gov 1.png"
+                            alt="India.gov.in"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/partner-logo/data-gov 1.png"
+                            alt="Data.gov.in"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/partner-logo/PMNRF 1.png"
+                            alt="PMNRF"></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/partner-logo/surface1.png"
+                            alt="MyGov"></a>
                 </div>
             </div>
 
